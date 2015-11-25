@@ -80,7 +80,7 @@
 	      			<div class="form-group">
 	      				<label for="arquivo" class="col-md-2 control-label">Arquivo PDF:</label>
 	      				<div class="col-md-8">
-	      					<input type="file" class="form-control" name="arquivo" id="arquivo" accept=".pdf" required>
+	      					<input type="file" class="form-control" name="arquivo" id="arquivo" accept="application/pdf">
 	      				</div>
 	      			</div>
 

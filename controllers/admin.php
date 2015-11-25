@@ -25,12 +25,6 @@
             redirect("login");
         
         }
-
-        public function teste($id){
-
-            echo $id;
-            
-        }
         
         
        /* Artigos ______________________________________________________*/ 
@@ -110,8 +104,15 @@
 
         public function deletarartigo($id){
             
-            $this->load->model('artigos_dao','artigos');
-            $this->artigos->delete($id);
+            if(is_numeric($id)){
+                
+                $this->load->model('artigos_dao','artigos');
+                $this->artigos->delete($id);
+                
+            }else{
+                
+                echo "erro";
+            }
         }
 
         
@@ -192,8 +193,15 @@
         
         public function deletardissertacao($id){
             
-            $this->load->model('dissertacoes_dao','dissertacoes');
-            $this->dissertacoes->delete($id);
+             if(is_numeric($id)){
+                
+                $this->load->model('dissertacoes_dao','dissertacoes');
+                $this->dissertacoes->delete($id);
+                
+             }else{
+                 
+                 echo "erro";
+             }
         }
         
         
@@ -284,13 +292,20 @@
         }
         
         public function deletartese($id){
+        
+            if(is_numeric($id)){
+                
+                $this->load->model('teses_dao','teses');
+                $this->teses->delete($id);
+                
+            }else{
             
-            $this->load->model('teses_dao','teses');
-            $this->teses->delete($id);
+                echo "erro";
+                 
+            }
         }
 
         /*_______________________________________________________________*/
-
         
         
     }

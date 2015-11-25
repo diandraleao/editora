@@ -23,14 +23,17 @@ class Login extends CI_Controller {
 		$senha = $this->input->post("senha");
 
 		if($login == "administrador" && $senha == "trabalho"){
-			//LOGADO
+			
 			$data = array(
           		'username' => 'administrador',
           		'logado' => TRUE
             );
+            
 			$this->session->set_userdata($data);
 			redirect("admin");
+			
 		}else{
+			
 			self::logar();
 		}
 	}

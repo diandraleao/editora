@@ -29,8 +29,11 @@
         
          public function delete($id){
             
+            
             $tables = array('TB_Dissertacoes','TB_Publicacoes');
+            
             $this->db->where('id_publicacao', $id);
+            
             $this->db->delete($tables);
             
         }

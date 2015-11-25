@@ -9,9 +9,9 @@
         
         public function __construct ($autor, $orientador, $coorientador, $pdf){
             
-            $this->nm_autor = $autor;
-            $this->nm_orientador = $orientador;
-            $this->nm_co_orientador = $coorientador;
+            $this->nm_autor = htmlspecialchars($autor, ENT_QUOTES, 'UTF-8');
+            $this->nm_orientador = htmlspecialchars($orientador, ENT_QUOTES, 'UTF-8');
+            $this->nm_co_orientador = htmlspecialchars($coorientador, ENT_QUOTES, 'UTF-8');
             $this->id_pdf = $pdf;
 
         }
