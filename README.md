@@ -14,3 +14,9 @@ Páginas com inserções e listagens
 - artigos
 - dissertações
 - teses
+
+login
+--------------
+*username: administrador*
+
+*password: trabalho*
