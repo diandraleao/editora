@@ -2,7 +2,7 @@
 
     class Cientifico {
         
-        public function get_categoria_id(){
+        public function get_categoria_id() {
 
             return 1; //Acadêmico
         }

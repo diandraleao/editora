@@ -2,7 +2,7 @@
     
     class Artigos_dao extends CI_Model {
         
-        public function insert(array $publicacao){
+        public function insert(array $publicacao) {
 
 
         	$this->db->insert('TB_Publicacoes',$publicacao[0]);

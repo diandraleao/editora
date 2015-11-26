@@ -11,7 +11,6 @@
 	    <link href="https://paralogike-disquarepants.c9users.io/static/css/navbar-static-top.css" rel="stylesheet">
 	    <link href="https://paralogike-disquarepants.c9users.io/static/css/sticky-footer-navbar.css" rel="stylesheet">
 
-
 	    <style>
 	    	div .panel-heading{
 				background-color: #EBEBEB;

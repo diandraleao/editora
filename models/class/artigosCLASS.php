@@ -7,7 +7,7 @@
         
         public $id_publicacao, $id_pdf;	
 
-        public function __construct ($pdf){
+        public function __construct ($pdf) {
             
             $this->id_pdf = $pdf;
         }

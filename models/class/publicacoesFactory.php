@@ -14,7 +14,7 @@
             
             $publicacao = array();
 
-            switch ($tipo){
+            switch ($tipo) {
                 
                 case 'artigo':
 

@@ -18,7 +18,7 @@
 
         /* seta o id do registro relacionado à tese na TB_Publicações para persistir como chave estrangeira na TB_Teses */
 
-        public function set_id_publicacao($id){
+        public function set_id_publicacao($id) {
 
             $this->id_publicacao = $id;
         }

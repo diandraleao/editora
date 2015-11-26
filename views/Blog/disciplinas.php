@@ -107,7 +107,6 @@
 							<li><a href="">Modos de Avaliação</a></li>
 							<li><a href="">Metodologia para elaboração da versão Final</a></li>
 						</ul>
-
 				</ul>
 			</main>
 

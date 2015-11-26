@@ -82,7 +82,6 @@
 		                  <li><a href="<?= base_url() ?>admin/adicionartese"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Adicionar</a></li>
 		                </ul>
 		              </li>
-
 		            </ul><!--/. nav -->
 
 		            <ul class="nav navbar-nav navbar-right">

@@ -76,7 +76,6 @@
 
 		<div class="container">
 		    <main>
-			    
 			    	
 			    		<div class="col-md-3 ">
 			    			<img src="../../static/img/prof-joao-inacio.jpg" alt="" class="img-responsive">

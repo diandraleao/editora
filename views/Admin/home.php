@@ -46,7 +46,6 @@
 				Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque
 				interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris 
 				lectus, non scelerisque augue. Aenean justo massa.</p>
-
 			</main>
 
 			<br>

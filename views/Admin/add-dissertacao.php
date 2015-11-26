@@ -93,6 +93,7 @@
 
 			<br><br>
 			<hr>
+			
 			<footer class="row">
 				<div class="container">
 					<p class="text-center text-muted">©2015 Copyright Diandra e Henrique - Todos os direitos reservados.</p>

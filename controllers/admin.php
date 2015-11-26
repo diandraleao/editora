@@ -210,7 +210,7 @@
         public function adicionartese(){
 
 
-           if(empty($_POST)){
+           if(empty($_POST)) {
 
                 $this->load->view('Admin/add-tese');
 

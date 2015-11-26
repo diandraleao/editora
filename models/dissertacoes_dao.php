@@ -12,7 +12,7 @@
             $this->db->insert('TB_Dissertacoes', $publicacao[1]);
         }
 
-        public function get_all_id_title_date(){
+        public function get_all_id_title_date() {
 
 
         	$this->db->select('TB_Publicacoes.id_publicacao, TB_Publicacoes.ds_titulo_publicacao, TB_Publicacoes.dt_publicacao');
